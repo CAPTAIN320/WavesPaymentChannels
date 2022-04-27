@@ -6,6 +6,7 @@
   "dependencies": {
     "@waves/signature-adapter": "^5.0.3",
     "@waves/waves-transactions": "^3.10.1",
+    "@waves/waves-crypto": "",
     "command-line-args": "^5.1.1",
     "command-line-usage": "^5.0.5",
     "log4js": "^4.3.1",

@@ -29,7 +29,7 @@ const compileScript = function(scriptSource, callback) {
         uri: node + '/utils/script/compile',
         body: scriptSource,
         method: 'POST'
-    },  function (err, response, body) {
+    }, function (err, response, body) {
         const compiledScript = JSON.parse(body).script.substring(7);
 
         callback(compiledScript);
